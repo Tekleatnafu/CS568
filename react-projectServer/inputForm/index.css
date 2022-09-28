@@ -1,0 +1,16 @@
+body {
+  /* background-color: aquamarine; */
+}
+form {
+  margin: 30px 50px;
+  background-color: rgb(213, 151, 151);
+  height: auto;
+  width: 50%;
+}
+input {
+  margin: 10px;
+}
+button {
+  width: 150px;
+  margin: 10px;
+}

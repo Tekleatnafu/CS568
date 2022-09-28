@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+		<Link rel="stylesheet" href="./index.css"></Link>
+  </head>
+  <body>
+    <form
+      class="amazoneForm"
+      action="http://localhost:3005/addtocart"
+      method="post"
+    >
+			<label for="id">Id</label>
+      <input type="text" name="id" /><br>
+			<label for="title">Title</label>
+      <input type="text" name="title" /><br>
+			<label for="price">Price</label>
+      <input type="text" name="price" /><br>
+			<label for="rating">Rating</label>
+      <input type="text" name="rating" /><br>
+			<label for="image">Image</label>
+			<input type="text" name="image" /><br>
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
